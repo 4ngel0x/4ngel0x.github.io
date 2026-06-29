@@ -16,7 +16,7 @@ timezone: Europe/Madrid
 
 title: 4ngel0x # the main title
 
-tagline: Blue Team · CCD Writeups · Research # it will display as the subtitle
+tagline: Blue Team · CCD Writeups · Security Research # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
