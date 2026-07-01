@@ -1,8 +1,13 @@
 ---
-title: "Tax Day - BYOVD Lab"
+title: Tax Day - BYOVD Lab
 date: 2026-07-01 11:00:00 +0100
-categories: [Writeups]
-tags: [windows, sysmon, malware]
+categories:
+  - Writeups
+tags:
+  - windows
+  - sysmon
+  - malware
+description: Writeup Tax Day - BYOVD Lab
 ---
 # ESCENARIO
 Every year around tax season, accountants are buried in forms, filings, and contractor paperwork. Attackers know this. They count on the urgency, the routine, the muscle memory of downloading one more document. This time it worked.
