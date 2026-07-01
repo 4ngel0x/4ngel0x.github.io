@@ -7,29 +7,28 @@ tags: [windows, sysmon, malware]
 # ESCENARIO
 Every year around tax season, accountants are buried in forms, filings, and contractor paperwork. Attackers know this. They count on the urgency, the routine, the muscle memory of downloading one more document. This time it worked.
 The machine has been imaged and the evidence is in front of you — start digging.
-![](assets/img/posts/1.png)
-# TOOLS
 
-- DB Browser Lite, EZ Tools, IDA
 ---
 ## Initial Access
 1. While searching and downloading tax forms, kjones certainly downloaded a file that doesn't fit what he was looking for. What is the name of that file?
 
 - Nos vamos a Sysmon Event ID 11 y filtramos por C:\Users\kjones\Downloads\; vemos que el fichero que más difiere respecto al resto es el .msi.
-
-
+![](assets/img/posts/1.png)
 
 - También se puede ver en el el archivo History de Chrome, abriéndolo con DB Browser SQLite. Además aquí se ve mejor que no cuadra con el tipo de formato con el que trabaja el usuario afectado.
-
+![](assets/img/posts/2.png)
 
 2. What time was that file downloaded?
    
 - Nos sirve tanto la hora registrada en el Event ID 11 como la hora registrada en la base de datos History, en la tabla Downloads.
+![](assets/img/posts/3.png)
+![](assets/img/posts/Pasted%20image%2020260701201539.png)
 
+- Pasado a formato legible: 
+![](assets/img/posts/Pasted%20image%2020260701201604.png)
 
-pasado a formato legible: 
+3. What domain was that file downloaded from?
 
-What domain was that file downloaded from?
 Aparece  base de datos History, en la tabla Downloads
 
 At some point kjones opened the files he downloaded, which triggered the execution of the rogue file. When exactly did that happen?
