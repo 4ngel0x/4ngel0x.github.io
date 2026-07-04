@@ -34,18 +34,6 @@
               "icon": "lucide-file",
               "title": "2026-07-04-rhadamanthys-writeup"
             }
-          },
-          {
-            "id": "078d729fccd4867e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "assets/img/posts/Pasted image 20260701203432.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260701203432"
-            }
           }
         ],
         "currentTab": 1
@@ -212,18 +200,18 @@
   },
   "active": "8ec390df1baf0d64",
   "lastOpenFiles": [
-    "assets/img/posts/Pasted image 20260704134153.png",
-    "assets/img/posts/Pasted image 20260704133712.png",
-    "assets/img/posts/Pasted image 20260704125439.png",
-    "assets/img/posts/Pasted image 20260704120205.png",
-    "assets/img/posts/Pasted image 20260704115029.png",
-    "assets/img/posts/Pasted image 20260704114532.png",
-    "assets/img/posts/Pasted image 20260704114436.png",
-    "assets/img/posts/Pasted image 20260704112702.png",
-    "assets/img/posts/Pasted image 20260704111210.png",
-    "assets/img/posts/Pasted image 20260704111159.png",
-    "assets/img/posts/Pasted image 20260704111059.png",
-    "_posts/2026-07-01-byovd-writeup.md",
-    "_posts/2026-07-04-rhadamanthys-writeup.md"
+    "assets/img/posts/Pasted image 20260701203432.png",
+    "_posts/2026-07-04-rhadamanthys-writeup.md",
+    "assets/img/posts/Pasted image 20260704232412.png",
+    "assets/img/posts/Pasted image 20260704215805.png",
+    "assets/img/posts/Pasted image 20260704214334.png",
+    "assets/img/posts/Pasted image 20260704205410.png",
+    "assets/img/posts/Pasted image 20260704205332.png",
+    "assets/img/posts/Pasted image 20260704204105.png",
+    "assets/img/posts/Pasted image 20260704203848.png",
+    "assets/img/posts/Pasted image 20260704203024.png",
+    "assets/img/posts/Pasted image 20260704202838.png",
+    "assets/img/posts/Pasted image 20260704202827.png",
+    "_posts/2026-07-01-byovd-writeup.md"
   ]
 }
