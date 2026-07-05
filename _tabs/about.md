@@ -25,7 +25,8 @@ Tambien subire poryecytos, review de ceritifaciones,.. todo relacionado con el m
 
 ## OBJETIVOS
 
-- Mis metas son claras, quiero empezar en algún puesto de SOC Analyst N1 para ir cogiendo experiencia y luego poder ascender a algún puesto de N2. Finalmente me gustaría acabar en un equipo dee Threat HUnting, ya sea dirgiendo o enfocandome mas en el ascpecto tecnico
+- Mis metas son claras, quiero empezar en algún puesto de SOC Analyst N1 para ir cogiendo experiencia y luego poder ascender a algún puesto de N2. 
+- Finalmente, cuando tenga suficiente concomito y experiencia sobre Blue y Red, me gustaría acabar en un equipo de Threat Hunting, ya sea dirgiendo o enfocándome mas en el aspecto técnico
 ## CERTIFICACIONES ACTUALES Y PROXIMAS
 
 ## Certificaciones
