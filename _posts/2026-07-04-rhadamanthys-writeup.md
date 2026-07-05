@@ -6,11 +6,14 @@ categories:
 tags:
   - windows
   - sysmon
-  - malware
-description: Writeup Rhadamanthys Lab
+  - EZ_Tools
+description: Writeup · Rhadamanthys Lab
 ---
 # ESCENARIO
 On 8 April 2026, a targeted social-engineering campaign tricked the user christian into executing a malicious document from the internet. Once the document was opened, it triggered remote code execution and kicked off a full attack chain through privilege escalation, persistence, LSASS dumping, and ultimately the Rhadamanthys Stealer. Because the beachhead host sits outside SIEM coverage, you have been provided with a disk image of the compromised machine to perform your analysis and reconstruct the attack.
+
+## HERRAMIENTAS
+- Event Log Explorer, PECmd, VirusTotal
 
 ---
 ## Initial Access
@@ -25,7 +28,7 @@ On 8 April 2026, a targeted social-engineering campaign tricked the user christi
 ## Command and Control
 1. Opening the document file triggered a connection back to C2. What is the C2 IP Address
 	- En este punto sabemos que al abrir el Word, se ejecutó rundll32 con el PID 2064 por lo que vamos a filtrar en Sysmon Event ID 3 por ese PID.
-	- Vemos que hay muchas conexiones a través de diferentes puertos.
+	- Vemos que hay muchas conexiones a través de diferentes puertos pero hacia la misma IP.
 ![](assets/img/posts/Pasted%20image%2020260704112702.png)
 
 ## Discovery
@@ -35,9 +38,11 @@ On 8 April 2026, a targeted social-engineering campaign tricked the user christi
 
 2. After executing some reconnaissance, threat actor dropped and executed malicious file to perform intensive enumeration, what's the full path of this tool, and it's original file name?
 	- Como el atacante dropeó un archivo, nos movemos al Event ID 11 y filtramos por el nombre christian para afinar más el resultado
-	- Sabiendo que el ejecutable malicioso se llama hh.exe, filtramos el Event ID 1 por ese nombre y vemos el nombre original.
+
 
 ![](assets/img/posts/Pasted%20image%2020260704125439.png)
+
+	- Sabiendo que el ejecutable malicioso se llama hh.exe, filtramos el Event ID 1 por ese nombre y vemos el nombre original.
 
 ![](assets/img/posts/Pasted%20image%2020260704120205.png)
 

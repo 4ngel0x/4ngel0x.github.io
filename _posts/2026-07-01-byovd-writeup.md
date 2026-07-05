@@ -7,11 +7,14 @@ tags:
   - windows
   - sysmon
   - malware
-description: Writeup Tax Day - BYOVD Lab
+description: Writeup · Tax Day - BYOVD Lab
 ---
 # ESCENARIO
 Every year around tax season, accountants are buried in forms, filings, and contractor paperwork. Attackers know this. They count on the urgency, the routine, the muscle memory of downloading one more document. This time it worked.
 The machine has been imaged and the evidence is in front of you — start digging.
+
+## HERRAMIENTAS
+- Event Log Explorer, DB Browser SQLite, Registry Explorer, PECmd, IDA.
 
 ---
 ## Initial Access
@@ -32,15 +35,15 @@ The machine has been imaged and the evidence is in front of you — start diggin
 ![](assets/img/posts/Pasted%20image%2020260701201604.png)
 
 3. What domain was that file downloaded from?
-	- Aparece en la base de datos History, en la tabla Downloads
+	- Aparece en la base de datos History, en la tabla Downloads.
 ![](assets/img/posts/Pasted%20image%2020260701203002.png)
 
 4. At some point kjones opened the files he downloaded, which triggered the execution of the rogue file. When exactly did that happen?
 	- Para esta pregunta tenemos varias maneras de averiguarlo. Yo he contrastado dos, filtrando siempre por msiexec a partir de la fecha de descarga de la pregunta 2:
-	- Por un lado tenemos UserAssist, con el que vemos ejecuciones intencionales por GUI
+	- Por un lado tenemos UserAssist, con el que vemos ejecuciones intencionales por GUI.
 ![](assets/img/posts/Pasted%20image%2020260701203147.png)
 
-	- Por otro tenemos Prefetch, con el que vemos que se ejecutó sobre la hora de la descarga y concide con lo que aparece en UserAssist
+	- Por otro tenemos Prefetch, con el que vemos que se ejecutó sobre la hora de la descarga y concide con lo que aparece en UserAssist.
 ![](assets/img/posts/Pasted%20image%2020260701203205.png)
 
 ## Persistence
@@ -73,7 +76,7 @@ The machine has been imaged and the evidence is in front of you — start diggin
 ![](assets/img/posts/Pasted%20image%2020260701205154.png)
 11. With both attempts blocked, the attacker launched an interactive PowerShell session and dropped two files into the system. What are the names of those two files?
 	- Nos vamos a Sysmon Event ID 11 filtrando por Powershell y vemos los dos archivos creados. 
-	- HWAuidoOs2Ec.sys es un driver legítimo y firmado pero que el atacante ha explotado porque sabe que tiene una vulnerabilidad. De ahí el enunciado del laboratorio (BYOVD - Bring Your Own Vulnerable Driver)
+	- HWAuidoOs2Ec.sys es un driver legítimo y firmado pero que el atacante ha explotado porque sabe que tiene una vulnerabilidad. De ahí el enunciado del laboratorio (BYOVD - Bring Your Own Vulnerable Driver).
 ![](assets/img/posts/Pasted%20image%2020260701205408.png)
 ![](assets/img/posts/Pasted%20image%2020260701205417.png)
 
@@ -82,17 +85,17 @@ The machine has been imaged and the evidence is in front of you — start diggin
 ![](assets/img/posts/Pasted%20image%2020260701205504.png)
 
 13. One of the two dropped files was an executable designed to kill Windows Defender. When was it executed for the first time?
-	- Vamos en busca del Prefetch de kd.exe para ver sus últimas ejecuciones y quedarnos con la primera ejecución
+	- Vamos en busca del Prefetch de kd.exe para ver sus últimas ejecuciones y quedarnos con la primera ejecución.
 ![](assets/img/posts/Pasted%20image%2020260701205528.png)
 
 14. Load that executable in IDA. What is the process name this executable targets?
-	- Cargamos el malware en IDA y nos vamos a View → Open Subviews → Strings. Me imaginaba que iba a ser MsMpEng.exe ya que es el proceso del motor de Microsoft Defender pero lo corroboro:
+	- Cargamos el malware en IDA y nos vamos a View → Open Subviews → Strings. Me imaginaba que iba a ser MsMpEng.exe ya que es el proceso del motor de Microsoft Defender pero lo corroboro.
 ![](assets/img/posts/Pasted%20image%2020260701205549.png)
 15. Continue your analysis in IDA. The executable communicates with the loaded driver by sending it a specific control code. What is the IOCTL code passed to DeviceIoControl?
-	- No tengo mucha experiencia con análisis de malware por lo que buscando por Internet, saqué la respuesta: 0x2248DC
+	- No tengo mucha experiencia con análisis de malware por lo que buscando por Internet, saqué la respuesta: 0x2248DC.
 
 ## Credential Access
 1. With Defender neutralized, the attacker successfully dumped LSASS. When was the dump file created on disk?
 	- Miramos de nuevo en Sysmon Event ID 11 y filtramos por lsass
-	- Siempre me ajusto a la pregunta y al timeline del suceso. No tengo que investigar mucho más porque en este caso voy llevando las horas del ataque y puedo llevar el timeline
+	- Siempre me ajusto a la pregunta y al timeline del suceso. No tengo que investigar mucho más porque en este caso voy llevando las horas del ataque y puedo llevar el timeline.
 ![](assets/img/posts/Pasted%20image%2020260701205831.png)
