@@ -31,8 +31,8 @@ Tambien subire poryecytos, review de ceritifaciones,.. todo relacionado con el m
 ## Certificaciones
 
 <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
-  <img src="/assets/img/posts/Pasted%20image%2020260705180712.png" width="120">
-  <img src="/assets/img/posts/Pasted%20image%2020260705180738.png" width="120">
+  <img src="/assets/img/posts/Pasted%20image%2020260705180712.png" alt="cert1" width="120">
+  <img src="/assets/img/posts/Pasted%20image%2020260705180738.png" alt="cert2" width="120">
 </div>
 
 
