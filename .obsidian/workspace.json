@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_tabs/tags.md",
+                "file": "_tabs/about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tags"
+              "title": "about"
             }
           }
         ]
@@ -183,8 +183,9 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "a71d5ca536714363",
+  "active": "8ec390df1baf0d64",
   "lastOpenFiles": [
+    "_tabs/tags.md",
     "_tabs/about.md",
     "_site/assets/img/posts/Pasted image 20260705180738.png",
     "_site/assets/img/posts/Pasted image 20260705180712.png",
