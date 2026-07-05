@@ -28,7 +28,14 @@ Tambien subire poryecytos, review de ceritifaciones,.. todo relacionado con el m
 - Mis metas son claras, quiero empezar en algún puesto de SOC Analyst N1 para ir cogiendo experiencia y luego poder ascender a algún puesto de N2. Finalmente me gustaría acabar en un equipo dee Threat HUnting, ya sea dirgiendo o enfocandome mas en el ascpecto tecnico
 ## CERTIFICACIONES ACTUALES Y PROXIMAS
 
-![](assets/img/posts/Pasted%20image%2020260705180712.png)![](assets/img/posts/Pasted%20image%2020260705180738.png)
+## Certificaciones
+
+<div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
+  <img src="![](assets/img/posts/Pasted%20image%2020260705180712.png)" width="120">
+  <img src="![](assets/img/posts/Pasted%20image%2020260705180738.png)" width="120">
+</div>
+
+
 
 - PATH AZURE
 - ECPPT CON 
