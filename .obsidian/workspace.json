@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-07-04-rhadamanthys-writeup.md",
+                "file": "_tabs/about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-04-rhadamanthys-writeup"
+              "title": "about"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "8ec390df1baf0d64",
   "lastOpenFiles": [
-    "_posts/2026-07-01-byovd-writeup.md",
     "_posts/2026-07-04-rhadamanthys-writeup.md",
+    "_posts/2026-07-01-byovd-writeup.md",
     "_tabs/about.md",
     "_tabs/tags.md",
     "_site/assets/img/posts/Pasted image 20260705180738.png",

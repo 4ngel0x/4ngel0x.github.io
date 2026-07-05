@@ -42,6 +42,3 @@ Tambien subire poryecytos, review de ceritifaciones,.. todo relacionado con el m
 Soc analyst
 formacion en azure y saber de red algo mas
 
-
-[10:32, 20/6/2026] angel: todo basado en experiencia laboral
-[10:32, 20/6/2026] angel: NO LABORAL
