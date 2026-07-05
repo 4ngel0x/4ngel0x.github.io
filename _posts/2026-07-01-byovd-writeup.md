@@ -7,12 +7,14 @@ tags:
   - windows
   - sysmon
   - malware
+  - EZ_Tools
 description: Writeup · Tax Day - BYOVD Lab
 ---
 # ESCENARIO
 Every year around tax season, accountants are buried in forms, filings, and contractor paperwork. Attackers know this. They count on the urgency, the routine, the muscle memory of downloading one more document. This time it worked.
 The machine has been imaged and the evidence is in front of you — start digging.
 
+---
 ## HERRAMIENTAS
 - Event Log Explorer, DB Browser SQLite, Registry Explorer, PECmd, IDA.
 

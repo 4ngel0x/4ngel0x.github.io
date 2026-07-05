@@ -29,15 +29,14 @@ Tambien subire poryecytos, review de ceritifaciones,.. todo relacionado con el m
 - Finalmente, cuando tenga suficiente concomito y experiencia sobre Blue y Red, me gustaría acabar en un equipo de Threat Hunting, ya sea dirgiendo o enfocándome mas en el aspecto técnico
 ## CERTIFICACIONES ACTUALES Y PROXIMAS
 
-## Certificaciones
+## Certificaciones actuales
 
 <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
   <img src="/assets/img/posts/Pasted%20image%2020260705180712.png" alt="cert1" width="120">
   <img src="/assets/img/posts/Pasted%20image%2020260705180738.png" alt="cert2" width="120">
 </div>
 
-
-
+## Certificaciones próximas
 - PATH AZURE
 - ECPPT CON 
 Soc analyst
