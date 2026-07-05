@@ -23,8 +23,8 @@ Me llamo Ángel, tengo 1 año de experiencia como Técnico de Sistemas/HelpDesk 
 
 ## OBJETIVOS
 
-- Mis metas son claras, quiero empezar en algún puesto de SOC Analyst N1 para ir cogiendo experiencia y luego poder ascender a algún puesto de N2. 
-- Finalmente, cuando tenga suficiente concomito y experiencia sobre Blue y Red, me gustaría acabar en un equipo de Threat Hunting, ya sea dirgiendo o enfocándome mas en el aspecto técnico
+- Mis metas son claras, quiero empezar en algún puesto de SOC Analyst N1 para ir cogiendo experiencia y luego poder escalar a un puesto de N2. 
+- Finalmente, cuando tenga suficiente conocimiento y experiencia sobre Blue y Red, me gustaría acabar en un equipo de Threat Hunting, ya sea dirigiendo o enfocándome mas en el aspecto técnico.
 
 ## Certificaciones actuales
 
