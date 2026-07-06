@@ -6,6 +6,7 @@ order: 4
 
 - Me llamo Ángel, tengo 1 año de experiencia como Técnico de Sistemas/HelpDesk en el Ayuntamiento  de Jaén y, además del grado superior de ASIR, cuento con el Curso de Especialización en Ciberseguridad (lo que muchos conocen como Máster de FP).
 - Actualmente me encuentro buscando empleo en el campo de la ciberseguridad defensiva.
+
 ---
 ## ¿Por qué he empezado con esta pagina? 
 
@@ -13,6 +14,7 @@ order: 4
 - Quiero dejar claro también que no pretendo enseñar ni explicar cada herramienta al dedillo para que lo entienda todo el mundo. Puede que haya temas que trate desde mi conocimiento pero que estén incompletos en algún punto, porque me falta esa experiencia profesional que sí me permitiría ser más preciso. Quizás escriba una query de Splunk que no funcione en todos los entornos reales.
 - Por último, todo lo escrito en esta página será hecho sin IA ya que quiero que sea más personal y que se note que hay una persona detrás, no solo prompts del Claude.
 ---
+
 ## Tipo de contenido 
 
 - Los writeups serán siempre de la plataforma CyberDefenders, ya que considero que a nivel de Blue Team es de lo mejor que existe. Además, casi siempre serán de laboratorios Medium/Hard activos, lo que significa que no encontrarás soluciones ni pistas para las respuestas. Lo hago así para demostrar que es un esfuerzo real, aunque con el tiempo estos laboratorios acabarán teniendo su writeup público, ya que la plataforma los va liberando cada ciertos meses tras el lanzamiento del lab. 
@@ -20,11 +22,13 @@ order: 4
 - También subiré conocimiento que ya tengo adquirido, siempre desde el punto de vista de alguien que ha aprendido por cuenta propia y que aún no ha tenido la oportunidad de llevarlo al ámbito laboral.
 - Además de todo esto, publicaré proyectos, reviews de certificaciones y todo lo relacionado con el mundo de la ciberseguridad que me vaya apeteciendo. De vez en cuando puede que también aparezca alguna reflexión.
 ---
+
 ## Objetivos
 
 - Mis metas son claras, quiero empezar en algún puesto de SOC Analyst N1 para ir cogiendo experiencia y luego poder escalar a un puesto de N2. 
 - Finalmente, cuando tenga suficiente conocimiento y experiencia sobre Blue y Red, me gustaría acabar en un equipo de Threat Hunting, ya sea dirigiendo o enfocándome mas en el aspecto técnico.
 ---
+
 ## Certificaciones actuales
 
 <div style="display: flex; gap: 20px; align-items: center; flex-wrap: wrap;">
