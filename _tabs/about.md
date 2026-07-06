@@ -8,7 +8,7 @@ order: 4
 - Actualmente me encuentro buscando empleo en el campo de la ciberseguridad defensiva.
 
 ---
-## ¿Por qué he empezado con esta pagina? 
+## ¿Por qué he empezado con esta página? 
 
 - Todo esto nació con ganas de mostrar mis avances en el mundo de la ciberseguridad defensiva, ya sea con laboratorios, proyectos o simple conocimiento. Siento que muchas veces parece que si no te sacas una certificación cada 2 meses, no estás haciendo nada. Y no es así. Por eso nace esta página: para demostrar que uno puede seguir formándose y construir una buena base en ciber sin esa necesidad de certificación constante. En mi caso concreto, a día 5 de julio de 2026, llevo sin sacarme una certificación desde noviembre de 2025. ¿Quiere decir esto que no he hecho nada hasta ahora? Ni mucho menos, terminé el certificado de CCD pero aún quedaban 4 módulos bastantes extensos que no se incluían en el examen pero sí en el curso. Además, tras terminarlos, el equipo de CyberDefenders me dio acceso beta a 4 módulos avanzados de DFIR, Threat Hunting, Azure Threat Detection y Active Directory. Así que no, no he parado de formarme en todo este tiempo. 
 - Quiero dejar claro también que no pretendo enseñar ni explicar cada herramienta al dedillo para que lo entienda todo el mundo. Puede que haya temas que trate desde mi conocimiento pero que estén incompletos en algún punto, porque me falta esa experiencia profesional que sí me permitiría ser más preciso. Quizás escriba una query de Splunk que no funcione en todos los entornos reales.
