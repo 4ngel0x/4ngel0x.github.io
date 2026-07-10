@@ -9,6 +9,8 @@ tags:
   - malware
   - EZ_Tools
 description: Writeup · Tax Day - BYOVD Lab
+image:
+  path: assets/img/posts/byod-breach.png
 ---
 # ESCENARIO
 Every year around tax season, accountants are buried in forms, filings, and contractor paperwork. Attackers know this. They count on the urgency, the routine, the muscle memory of downloading one more document. This time it worked.

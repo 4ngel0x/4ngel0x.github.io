@@ -183,8 +183,12 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "8ec390df1baf0d64",
+  "active": "a71d5ca536714363",
   "lastOpenFiles": [
+    "assets/img/posts/byod-breach.png",
+    "assets/img/posts/byod-breach.webp",
+    "assets/img/posts/rhadamanthys.png",
+    "assets/img/posts/rhadamanthys.webp",
     "_posts/2026-07-04-rhadamanthys-writeup.md",
     "_posts/2026-07-10-maromafix Falldown - RansomHub writeup.md",
     "_posts/2026-07-01-byovd-writeup.md",
@@ -202,9 +206,6 @@
     "_site/posts/rhadamanthys-writeup",
     "_site/assets/img/posts/Pasted image 20260704232412.png",
     "_site/assets/img/posts/Pasted image 20260704215805.png",
-    "_site/assets/img/posts/Pasted image 20260704214334.png",
-    "_site/assets/img/posts/Pasted image 20260704205410.png",
-    "_site/assets/img/posts/Pasted image 20260704205332.png",
-    "_site/assets/img/posts/Pasted image 20260704204105.png"
+    "_site/assets/img/posts/Pasted image 20260704214334.png"
   ]
 }

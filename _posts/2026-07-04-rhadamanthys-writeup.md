@@ -8,6 +8,8 @@ tags:
   - sysmon
   - EZ_Tools
 description: Writeup · Rhadamanthys Lab
+image:
+  path: assets/img/posts/rhadamanthys.png
 ---
 # ESCENARIO
 On 8 April 2026, a targeted social-engineering campaign tricked the user christian into executing a malicious document from the internet. Once the document was opened, it triggered remote code execution and kicked off a full attack chain through privilege escalation, persistence, LSASS dumping, and ultimately the Rhadamanthys Stealer. Because the beachhead host sits outside SIEM coverage, you have been provided with a disk image of the compromised machine to perform your analysis and reconstruct the attack.
