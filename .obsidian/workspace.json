@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-07-01-byovd-writeup.md",
+                "file": "_posts/2026-07-20-gh0stnet-writeup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-01-byovd-writeup"
+              "title": "2026-07-20-gh0stnet-writeup"
             }
           }
         ]
@@ -183,15 +183,19 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "a71d5ca536714363",
+  "active": "8ec390df1baf0d64",
   "lastOpenFiles": [
+    "assets/img/posts/Pasted image 20260716204652.png",
+    "assets/img/posts/Pasted image 20260716204315.png",
+    "assets/img/posts/Pasted image 20260716203730.png",
+    "_posts/2026-07-04-rhadamanthys-writeup.md",
+    "_posts/2026-07-20-gh0stnet-writeup.md",
+    "_posts/2026-07-01-byovd-writeup.md",
     "assets/img/posts/byod-breach.png",
     "assets/img/posts/byod-breach.webp",
     "assets/img/posts/rhadamanthys.png",
     "assets/img/posts/rhadamanthys.webp",
-    "_posts/2026-07-04-rhadamanthys-writeup.md",
     "_posts/2026-07-10-maromafix Falldown - RansomHub writeup.md",
-    "_posts/2026-07-01-byovd-writeup.md",
     "_tabs/about.md",
     "_tabs/tags.md",
     "_site/assets/img/posts/Pasted image 20260705180738.png",
@@ -203,9 +207,6 @@
     "_tabs/archives.md",
     "_tabs/categories.md",
     "_site/posts/rhadamanthys-writeup/index.html",
-    "_site/posts/rhadamanthys-writeup",
-    "_site/assets/img/posts/Pasted image 20260704232412.png",
-    "_site/assets/img/posts/Pasted image 20260704215805.png",
-    "_site/assets/img/posts/Pasted image 20260704214334.png"
+    "_site/posts/rhadamanthys-writeup"
   ]
 }
