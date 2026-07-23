@@ -1,0 +1,83 @@
+---
+title: Review Certificación CCD (Certified CyberDefenders)
+date: 2026-07-23 11:00:00 +0100
+categories:
+  - Review
+tags:
+  - Review
+description: Experiencia sobre certificación y plataforma CCD
+image:
+  path: assets/img/posts/ccd2.png
+---
+---
+title: Review Certificación CCD (Certified CyberDefender)
+description: Experiencia con la certificación CCD de CyberDefenders
+---
+
+# Review Certificación CCD (Certified CyberDefender)
+
+## 1. Contexto: ¿desde dónde escribo esta review?
+
+Antes de entrar en materia creo que es importante situar desde dónde escribo esto, porque no es lo mismo valorar una certificación intermedia viniendo de cero que viniendo con algo de bagaje.
+
+Yo vengo de estudiar Administración de Sistemas, hice una especialización en Ciberseguridad y llevo un año de experiencia en soporte IT. Además, antes de la CCD ya había pasado la BTL1 (100/100) y ahora la CCD (80/100), así que tengo un punto de comparación bastante directo entre ambas.
+
+Aclaro también los tiempos: la certificación la saqué a finales de 2025, aunque esta review la estoy escribiendo y publicando ahora. Lo digo porque, como veréis más adelante, CyberDefenders ha hecho cambios (incluido un rebranding de la propia certificación) desde entonces, así que parte de lo que cuento aquí refleja mi experiencia de aquel momento y no necesariamente el estado actual de la plataforma al 100%.
+
+## 2. ¿Qué es la CCD?
+
+La Certified CyberDefender (CCD) es la certificación insignia de [**CyberDefenders**](https://cyberdefenders.org/), una plataforma centrada en Blue Team: SOC, threat hunting, forense digital y respuesta ante incidentes. A diferencia de otras certificaciones de entrada, la CCD ya está pensada como un salto de nivel: asume que traes una base y no te trata como si fuera tu primer contacto con seguridad defensiva.
+
+## 3. El salto de nivel respecto a BTL1
+
+La diferencia se nota casi de inmediato. Todo se siente más completo, incorpora herramientas realmente útiles y queda claro que están apuntando a un nivel intermedio. No es una certificación que te vaya explicando lo básico de la mano, da por hecho cierto conocimiento previo y construye sobre eso.
+
+## 4. Los laboratorios
+
+Aquí es donde más gratamente me sorprendieron. Los laboratorios están bien diseñados, son realistas y encajan con lo que luego se te va a pedir. Y hay un detalle que me parece de lo mejor que he visto en una certificación: uno de los laboratorios de investigación es sensiblemente más exigente que el resto, no tiene write-ups ni ayuda de ningún tipo, y si lo completas te suma un 5% extra sobre la nota del examen. Es un incentivo muy bien pensado para empujarte a ir más allá de lo mínimo.
+
+Hay un punto que a primera vista puede sonar a queja pero que para mí es justo lo contrario: la restricción de copiar y pegar. Yo no soy nativo de inglés, aunque lo hablo, escribo y leo sin problema, así que ver las lecciones en inglés y tener que traducir y resumir mentalmente exige más esfuerzo. Pero a la larga es mucho mejor, porque te obliga a escribirlo todo tú, sin apoyarte en ChatGPT o en un traductor para copiar y pegar y salir del paso.
+
+## 5. El examen
+
+El examen es completo, exigente y largo, pero también muy gratificante. Cuando terminas tienes la sensación de que no solo has hecho un examen, sino que realmente has aprendido algo y sales con bastante más conocimiento del que tenías antes de empezar.
+
+¿A quién se la recomendaría? A cualquiera con conocimientos básicos de IT y ciertos fundamentos de Blue Team. Dicho esto, también se puede afrontar sin un bagaje fuerte en ciberseguridad, porque todo está explicado con mucha claridad.
+
+## 6. Más allá del contenido técnico
+
+Hay varias cosas que no tienen que ver directamente con lo técnico pero que hacen que el curso se disfrute más y se le saque más partido:
+
+- **Navegación y organización**: la plataforma es fácil de recorrer y todo (lecciones, labs, recursos) está estructurado de forma lógica, lo que hace que el aprendizaje fluya sin fricciones.
+- **Arranque de los laboratorios**: es muy directo, las instrucciones son claras y el entorno está listo para usarse desde el primer momento, así que te centras en aprender y no en pelearte con la configuración.
+- **Soporte**: rápido y útil de verdad. Cada vez que tuve una duda o un problema, obtuve una respuesta clara en un tiempo razonable. Se me agotó el tiempo de acceso a los labs y, aun así, tuvieron el detalle de darme unos días más (ya había aprobado el examen para entonces).
+
+Usé la plataforma prácticamente a diario mientras hacía el curso, sobre todo para labs y ejercicios de práctica. El contenido práctico engancha y hace que apliques lo que vas estudiando casi de inmediato.
+
+## 7. Lo que no me ha convencido tanto
+
+No todo es perfecto, así que van también los puntos flojos:
+
+- Una vez terminas el examen no puedes ver en qué fallaste. Entiendo el motivo, evitar que las respuestas se compartan entre estudiantes, pero aun así te quedas con la duda de qué se te escapó.
+- Algunos vídeos no aportan gran cosa a la explicación y se sienten más como una voz en off repitiendo teoría que ya has estudiado por tu cuenta.
+- Me habría gustado ver un módulo de Linux, aunque fuese opcional. No es imprescindible viendo todo lo que ya ofrece el curso, pero habría sido un buen extra.
+
+Como sugerencia más que como queja: estaría bien poder resetear las respuestas de un lab, aunque fuese solo una vez. Esa opción existe si suspendes el lab, pero no está disponible de antemano.
+
+## 8. La plataforma CyberDefenders (más allá de la certificación)
+
+Aquí quiero separar una cosa: una parte de lo que hace grande a CyberDefenders no depende de estar estudiando la CCD. Tanto el blog como el área de laboratorios premium se pueden visitar y aprovechar sin necesidad de meterte en la certificación.
+
+**El blog** funciona como un recurso aparte, con artículos y guías sobre detección, forense, threat hunting y herramientas de SOC (EDR, análisis de memoria, PowerShell ofuscado, etc.). Es un buen sitio al que volver aunque no estés siguiendo ningún curso, simplemente para mantenerte al día en Blue Team.
+
+**El área de laboratorios**, conocida como BlueYard, va más allá del contenido que usa la CCD durante el curso. Hay decenas de labs gratuitos de acceso libre, cubriendo forense digital, análisis de malware, threat intelligence y threat hunting, con distintos niveles de dificultad. Y luego está la parte premium (para suscriptores Pro), con laboratorios adicionales, algunos retirados sin write-up público, que sirven de complemento perfecto si ya te has quedado con ganas de más después del CCD, o si simplemente quieres practicar sin comprometerte con la certificación completa.
+
+Es una de esas plataformas donde, aunque nunca llegues a hacer el examen, merece la pena tener la cuenta creada solo por el catálogo de labs y el blog.
+
+## 9. Conclusión
+
+CyberDefenders me ha ayudado a confirmar, todavía más, que la ciberseguridad es el camino profesional que quiero seguir. Aunque a día de hoy no estoy trabajando en el sector, el curso me dio claridad y confianza sobre la dirección que quiero tomar.
+
+Me ha dado experiencia práctica con herramientas y escenarios reales, lo que me ha ayudado a entender mejor qué implica trabajar en un entorno de Blue Team. Más allá del aprendizaje técnico, reforzó mi motivación y me dejó con la certeza de que este es el camino que quiero seguir.
+
+Sigo usando la plataforma para practicar labs y reforzar lo aprendido. Y si algún día sacan una certificación más avanzada (¿CCD 2, tal vez?), seré de los primeros en apuntarme.
