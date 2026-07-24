@@ -38,16 +38,14 @@ Certified CyberDefender (CCDL2) es la certificación más difícil de la platafo
 
 ## 3. El salto de nivel respecto a BTL1
 
-Voy a compararlo con el BTL1 porque es la otra certificación de ciberseguridad defeniva que tengo aunque la CCD debería compararse más bien con la CDSA de Hack The Box.
+No va a ser justa la comparación ya que debería compararse más bien con la CDSA de Hack The Box pero es es la otra certificación de ciberseguridad defensiva que tengo así que lo usaré como punto de referencia. 
 La diferencia se nota casi de inmediato. Todo se siente más completo, incorpora herramientas realmente útiles y profundiza mucho más en términos técnicos. No es una certificación que te vaya explicando lo básico de la mano, da por hecho cierto conocimiento previo aunque si no traes experiencia, puedes ir más o menos enterándote, aunque no lo recomiendo de entrada.
 
 ## 4. Los laboratorios
 
-Aquí es donde más gratamente me sorprendieron. Los laboratorios están bien diseñados, son realistas y encajan con lo que luego se te va a pedir. Y hay un detalle que me parece de lo mejor que he visto en una certificación: uno de los laboratorios de investigación es bastante más exigente que el resto, no tiene write-ups ni ayuda de ningún tipo, y si lo completas te suma un 5% extra sobre la nota del examen. Es un incentivo muy bien pensado para empujarte a ir más allá de lo mínimo.
+Aquí es donde más gratamente me sorprendieron. Los laboratorios están bien diseñados, son realistas y encajan con lo que luego se te va a pedir. Y hay un detalle que me parece de lo mejor que he visto en una certificación: uno de los laboratorios de investigación de cada sección (4 en total) es bastante más exigente que el resto, no tiene write-ups ni ayuda de ningún tipo, y si lo completas te suma un 5% extra sobre la nota del examen. Es un incentivo muy bien pensado para empujarte a ir más allá de lo mínimo y que te puede ayudar si te quedas en 65/100 en la nota final.
 
-Vale, aquí tienes el texto para que lo pegues tú:
-
-Un punto favorable que hicieron fue el de desactivar el copiar y pegar. Al principio está capado y te gusta, porque te obliga a hacer los apuntes de forma más manual y sientes que van más acorde con lo que realmente quieres tener. Pero cuando llevas ya bastantes días de estudio, se hace cansino. Además, hoy en día la IA te puede ayudar muchísimo a mejorar los apuntes y hacerlos más interactivos (NotebookLM, por ejemplo), y con esta restricción simplemente no puedes aprovechar eso.
+No tiene que ver con los laboratorios pero lo diré aquí. Un punto favorable que hicieron fue el de activar de nuevo el copiar y pegar. Al principio estaba capado y te gustaba, porque te obligaba a hacer los apuntes de forma más manual y sentías que iban más acorde con lo que realmente querías tener. Pero cuando llevas ya bastantes días de estudio, se hace cansino. Además, hoy en día la IA te puede ayudar muchísimo a mejorar los apuntes y hacerlos más interactivos (NotebookLM, por ejemplo), y con esta restricción simplemente no puedes aprovechar eso.
 
 ## 5. El examen
 
@@ -55,36 +53,29 @@ Vamos con la chicha, que es lo que de verdad interesa. El examen de la CCDL2 es 
 
 Tienes 48 horas para completarlo, dentro de un entorno dedicado al que accedes desde el navegador (con una instancia de Elastic incluida), así que no hay que montar VPN ni instalar herramientas externas. Para aprobar necesitas un 70%, y el curso viene con dos intentos de examen incluidos.
 
-El examen se apoya en cinco módulos "core" del curso: forense de red, recolección de evidencias, forense de disco, forense de memoria y threat hunting. Hay otros cuatro módulos opcionales (fundamentos de SecOps, respuesta a incidentes, seguridad de email y análisis de malware) que están bien para completar el perfil, pero no entran en el examen, así que no hace falta agobiarse con ellos antes de presentarte.
+El examen se apoya en cuatro módulos "core" del curso: forense de red, forense de disco, forense de memoria y threat hunting. Hay otros cuatro módulos opcionales (fundamentos de SecOps, respuesta a incidentes, seguridad de email y análisis de malware) que están bien para completar el perfil, pero no entran en el examen, así que no hace falta agobiarse con ellos antes de presentarte. 
+Una cosa que me gustó del examen es que cada parte corresponde al mismo caso, es decir, verás los mismos usuarios y artefactos pero a la vez están separados en los distintos módulos para que, si te has quedado atrancado en el módulo de forense de red, por ejemplo, puedas seguir con el resto de módulos sin ningún problema.
 
-Un dato que me pareció muy honesto por su parte: el examen es open-book, puedes usar tus apuntes, cheatsheets y buscar en internet con total normalidad mientras investigas, eso forma parte del trabajo real. Lo único que está terminantemente prohibido es usar IA (ChatGPT, Copilot o similares); si te pillan, es motivo de descalificación. Y aquí enlaza justo con lo que comentaba antes de la restricción de copiar y pegar durante el curso: al final tiene sentido, porque te están entrenando para depender de tus propios apuntes y tu propio criterio, no de que una IA razone por ti el día del examen.
+El examen es open-book, puedes usar tus apuntes, cheatsheets y buscar en internet con total normalidad mientras investigas, eso forma parte del trabajo real. Lo único que está prohibido es usar IA (ChatGPT, Claude...); si te pillan, es motivo de descalificación.
 
-Y hablando de apuntes: si algo saqué en claro es que tus notas de los labs son tu mejor arma para el examen. No es una frase motivacional random, lo dicen ellos mismos con datos: los estudiantes que completan las cuatro investigaciones (disco, red, threat hunting y memoria) mejoran un 30% su rendimiento en el examen. Además, si completas las cuatro te llevas un 5% extra sobre la nota, que puede ser justo lo que te haga pasar de suspenso a aprobado si te quedas rozando el corte.
+Y hablando de apuntes, haz apuntes de cada página, apunta comandos, apunta la ubicación de las Registry Keys y Events IDs. En resumen, apunta todo.
 
 El examen es completo, exigente y largo, pero también muy gratificante. Cuando terminas tienes la sensación de que no solo has hecho un examen, sino que realmente has aprendido algo y sales con bastante más conocimiento del que tenías antes de empezar.
 
 En mi caso, el primer día estuve en torno a 10 horas y el segundo día unas 7/8.
-Los resultados del examen te los envían por correo a la semana/semana y media
-
+Los resultados del examen te los envían por correo a la semana/semana y media.
 
 ## 6. Más allá del contenido técnico
-
-Hay varias cosas que no tienen que ver directamente con lo técnico pero que hacen que el curso se disfrute más y se le saque más partido:
 
 - **Navegación y organización**: la plataforma es fácil de usar y todo (lecciones, labs, recursos) está estructurado de forma lógica.
 - **Arranque de los laboratorios**: es muy directo, las instrucciones son claras y el entorno está listo para usarse desde el primer momento, así que te centras en aprender y no en pelearte con la configuración.
 - **Soporte**: rápido y útil de verdad. Cada vez que tuve una duda o un problema, obtuve una respuesta clara en un tiempo razonable. Se me agotó el tiempo de acceso a los labs y, aun así, tuvieron el detalle de darme unos días más (ya había aprobado el examen para entonces).
 
-
 ## 7. Lo que no me ha convencido tanto
-
-No todo es perfecto, así que van también los puntos flojos:
 
 - Una vez terminas el examen no puedes ver en qué fallaste. Entiendo el motivo, evitar que las respuestas se compartan entre estudiantes, pero aun así te quedas con la duda de qué se te escapó.
 - Algunos vídeos no aportan gran cosa a la explicación y se sienten más como una voz en off repitiendo teoría que ya has estudiado por tu cuenta.
 - Me habría gustado ver un módulo de Linux, aunque fuese opcional. No es imprescindible viendo todo lo que ya ofrece el curso, pero habría sido un buen extra.
-- Cuando acabas con los 4 meses de acceso al curso, ya no puedes
-
 
 ## 8. Precio y conclusión
 
@@ -99,13 +90,16 @@ Sigo usando la plataforma para practicar labs y reforzar lo aprendido. Y si alg�
 
 Para terminar voy a hablar ahora sobre el blog y los laboratorios de la plataforma en general, la cual  me ha servido para tener una muy buena base sobre Blue Team y con la que estoy a las puertas de entrar a trabajar como S0C N1:
 
-- **El blog** funciona como un recurso aparte, con artículos y guías sobre detección, forense, threat hunting y herramientas de SOC (EDR, análisis de memoria, PowerShell ofuscado, etc.). Mucho contenido del propio certificado te lo encuentras ahí (aunque obviamente no se puede comparar). Es bastante útil.
-
 - Los laboratorios premium son muy buenos, y van añadiendo uno nuevo cada 3-4 semanas basado en ataques reales ocurridos recientemente, lo cual está genial para no quedarte con contenido desactualizado. Cuestan 20$ al mes, con opción a pagar 200$ al año si lo tienes claro.
 
 Aparte de los premium también están los laboratorios gratuitos, que están muy bien para entrar en contacto con el tipo de herramientas que se usan en el día a día. Pero si te lo puedes permitir, yo recomiendo pagar los premium: hay muchos más y profundizan bastante más en cada tema.
 
 En cuanto a contenido, los labs cubren forense digital, análisis de malware, threat intelligence y threat hunting, con distintos niveles de dificultad. Y luego hay una distinción interesante entre dos tipos: los **retirados**, que vienen con su write-up y con pistas para guiarte si te atascas, y los **activos**, que no tienen nada de eso y son los que te sirven para subir puestos en el leaderboard.
 ![](assets/img/posts/Pasted%20image%2020260724201223.png)
+
+- **El blog** funciona como un recurso aparte, con artículos y guías sobre detección, forense, threat hunting y herramientas de SOC (EDR, análisis de memoria, PowerShell ofuscado, etc.). Mucho contenido del propio certificado te lo encuentras ahí (aunque obviamente no se puede comparar). Es bastante útil.
+
+---
+
 
 ![](assets/img/posts/Pasted%20image%2020260724201345.png)
