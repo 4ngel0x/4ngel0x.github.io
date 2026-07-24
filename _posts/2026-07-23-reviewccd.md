@@ -8,6 +8,7 @@ tags:
 description: Experiencia con la certificación y plataforma CCD
 image:
   path: assets/img/posts/sdds.png
+  width: 300
 ---
 
 ## Resumen rápido de la CCDL2
@@ -26,7 +27,7 @@ La recomiendo 100% si tienes una base de sistemas y redes, y notas que ya sabes 
 
 Antes de entrar en materia creo que es importante situar desde dónde escribo esto, porque no es lo mismo valorar una certificación intermedia viniendo de cero que viniendo con algo de bagaje.
 
-Yo vengo de estudiar Administración de Sistemas, hice una especialización en Ciberseguridad y llevo un año de experiencia en soporte IT. Además, antes de la CCD ya había pasado la BTL1 (100/100) y ahora la CCD (80/100), así que tengo un punto de comparación bastante directo entre ambas.
+Yo vengo de estudiar Administración de Sistemas, hice una especialización en Ciberseguridad y llevo un año de experiencia en soporte IT. Además, antes había pasado la BTL1 (100/100) y después la CCD (80/100), así que me presenté con cierto nivel y base.
 
 Aclaro también los tiempos: la certificación la saqué a finales de 2025, aunque esta review la estoy escribiendo y publicando a mediados de 2026. Lo digo porque, como veréis más adelante, CyberDefenders ha hecho cambios (incluido un rebranding de la propia certificación) desde entonces, así que parte de lo que cuento aquí refleja mi experiencia de aquel momento sobre el examen y no necesariamente el estado actual al 100% (ya que me parece que ahora está prohibido usar la IA para los exámenes y creo que querían hacer la certificación supervisada, no sé de qué manera exactamente) aunque la opinión sobre la plataforma en general sí es de ahora ya que la uso todos los días.
 
