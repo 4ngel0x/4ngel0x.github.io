@@ -7,8 +7,7 @@ tags:
   - Review
 description: Experiencia con la certificación y plataforma CCD
 image:
-  path: assets/img/posts/sdds.png
-  width: 300
+  path: assets/img/posts/ccdl2.3.png
 ---
 
 ## Resumen rápido de la CCDL2
@@ -35,12 +34,12 @@ Sobre ese rebranding: la CCD que yo hice ahora se ha dividido en dos certificaci
 
 ## 2. ¿Qué es la CCD?
 
-Certified CyberDefender (CCD) es la certificación de la plataforma[**CyberDefenders**](https://cyberdefenders.org/), una plataforma centrada en Blue Team: SOC, threat hunting, forense digital y respuesta ante incidentes. A diferencia de otras certificaciones de entrada, la CCD ya está pensada como un salto de nivel: asume que traes una base y no te trata como si fuera tu primer contacto con seguridad defensiva.
+Certified CyberDefender (CCDL2) es la certificación más difícil de la plataforma [**CyberDefenders**](https://cyberdefenders.org/), una plataforma centrada en Blue Team: SOC, threat hunting, forense digital y respuesta ante incidentes. A diferencia de otras certificaciones de entrada, la CCD ya está pensada como un salto de nivel: asume que traes una base y no te trata como si fuera tu primer contacto con seguridad defensiva.
 
 ## 3. El salto de nivel respecto a BTL1
 
-Voy a compararlo con el BTL1 porque es la otra certificación de ciberseguridad defsniva que tengo aunque el CCD debería compararse más bien con el CDSA de Hack The Box.
-La diferencia se nota casi de inmediato. Todo se siente más completo, incorpora herramientas realmente útiles y queda claro que están apuntando a un nivel intermedio. No es una certificación que te vaya explicando lo básico de la mano, da por hecho cierto conocimiento previo y construye sobre eso.
+Voy a compararlo con el BTL1 porque es la otra certificación de ciberseguridad defeniva que tengo aunque la CCD debería compararse más bien con la CDSA de Hack The Box.
+La diferencia se nota casi de inmediato. Todo se siente más completo, incorpora herramientas realmente útiles y profundiza mucho más en términos técnicos. No es una certificación que te vaya explicando lo básico de la mano, da por hecho cierto conocimiento previo aunque si no traes experiencia, puedes ir más o menos enterándote, aunque no lo recomiendo de entrada.
 
 ## 4. Los laboratorios
 
