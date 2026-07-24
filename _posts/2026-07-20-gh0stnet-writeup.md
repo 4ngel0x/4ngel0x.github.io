@@ -114,3 +114,6 @@ You are given three artifacts:
 1. The keylogger captures credentials typed into RDP sessions and exfiltrates them to its keylog C2 as a single HTTP GET parameter. What is the full encoded value it exfiltrated from this host?
 	- Seguimos en Wireshark filtrando por HTTP. La respuesta está en el mismo paquete de la pregunta anterior.
 ![](assets/img/posts/Pasted%20image%2020260723202603.png)
+
+2. That value is obfuscated, not plaintext - a straight Base64 decode yields garbage. Using the payload DLL you carved from the disk image, locate the routine that builds this exfil parameter, recover the encoding it applies, and use it to decode the captured value. What is the full decoded keylog record?
+	- La verdad que lo he hecho a fuerza bruta con Claude ya que el método correcto descrito en el Discord de Cyberdefenders consistía en extraes la DLL que has encontrado en las preguntas anteriores -> la descomprimes (la ejecutas y obtienes un volcado de memoria con x64dbg o pe-sieve) -> buscas las cadenas que contienen el parámetro deseado y, a continuación, realizas ingeniería inversa de su subrutina para determinar el esquema de codificación/decodificación. (este paso lo supe después de hacerlo a fuerza bruta aunque no se me hubiese ocurrido)
