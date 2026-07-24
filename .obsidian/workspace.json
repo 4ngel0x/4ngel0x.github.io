@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-07-20-gh0stnet-writeup.md",
+                "file": "_posts/2026-07-23-reviewccd.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-20-gh0stnet-writeup"
+              "title": "2026-07-23-reviewccd"
             }
           }
         ],
@@ -200,30 +200,35 @@
   },
   "active": "6efeb6ec310a6eb9",
   "lastOpenFiles": [
-    "assets/img/posts/Pasted image 20260723202603.png",
-    "assets/img/posts/Pasted image 20260723200552.png",
-    "assets/img/posts/Pasted image 20260723193805.png",
-    "assets/img/posts/Pasted image 20260723192716.png",
-    "assets/img/posts/Pasted image 20260723190544.png",
-    "assets/img/posts/Pasted image 20260723182118.png",
-    "assets/img/posts/Pasted image 20260723181729.png",
-    "assets/img/posts/Pasted image 20260723180129.png",
-    "assets/img/posts/Pasted image 20260723180059.png",
-    "assets/img/posts/Pasted image 20260723135609.png",
-    "assets/img/posts/Pasted image 20260723135424.png",
+    "assets/img/posts/sdds.png",
+    "_posts/2026-07-20-gh0stnet-writeup.md",
+    "_posts/2026-07-23-reviewccd.md",
+    "_site/posts/reviewccd/index.html",
+    "_site/posts/reviewccd",
+    "_site/posts/gh0stnet-writeup/index.html",
+    "_site/posts/gh0stnet-writeup",
+    "_site/assets/img/posts/rhadamanthys.png",
+    "_site/assets/img/posts/ghostnet-intrusion.png",
+    "_site/assets/img/posts/byod-breach.png",
+    "_site/assets/img/posts/Pasted image 20260724201345.png",
+    "_site/assets/img/posts/Pasted image 20260724201317.png",
+    "_site/assets/img/posts/Pasted image 20260724201223.png",
+    "_site/assets/img/posts/Pasted image 20260723202603.png",
+    "_site/assets/img/posts/Pasted image 20260723200552.png",
+    "_site/assets/img/posts/Pasted image 20260723193805.png",
+    "_site/assets/img/posts/Pasted image 20260723192716.png",
+    "_site/categories/review/index.html",
+    "_site/categories/review",
+    "_site/tags/review/index.html",
+    "_site/tags/review",
     "_posts/2026-07-23-reviewccd",
     "_posts/s",
     "_posts/2026-07-01-byovd-writeup.md",
     "_posts/2026-07-04-rhadamanthys-writeup.md",
-    "_posts/2026-07-20-gh0stnet-writeup.md",
     "_posts/2026-07-10-maromafix Falldown - RansomHub writeup.md",
     "_tabs/about.md",
     "_tabs/tags.md",
-    "_site/tags/ez-tools/index.html",
-    "_site/tags/ez-tools",
     "_tabs/archives.md",
-    "_tabs/categories.md",
-    "_site/posts/rhadamanthys-writeup/index.html",
-    "_site/posts/rhadamanthys-writeup"
+    "_tabs/categories.md"
   ]
 }
