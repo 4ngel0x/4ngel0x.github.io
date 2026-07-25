@@ -7,10 +7,10 @@ tags:
   - Review
 description: Experiencia con la certificación y plataforma CCD
 image:
-  path: assets/img/posts/ccdl2.3.png
+  path: assets/img/posts/diseño2.png
 ---
 
-## Resumen rápido de la CCDL2
+## Resumen rápido de la CCDL23
 
 | Aspecto                 | Valoración |
 | ----------------------- | ---------- |
@@ -80,26 +80,26 @@ Los resultados del examen te los envían por correo a la semana/semana y media.
 ## 8. Precio y conclusión
 
 CyberDefenders me ha ayudado a confirmar, todavía más, que la ciberseguridad es el camino profesional que quiero seguir. Aunque a día de hoy no estoy trabajando en el sector, el curso me dio claridad y confianza sobre la dirección que quiero tomar.
-
+![](assets/img/posts/Pasted%20image%2020260724201317.png)
 Me ha dado experiencia práctica con herramientas y escenarios reales, lo que me ha ayudado a entender mejor qué implica trabajar en un entorno de Blue Team. Más allá del aprendizaje técnico, reforzó mi motivación y me dejó con la certeza de que este es el camino que quiero seguir.
 
 Sigo usando la plataforma para practicar labs y reforzar lo aprendido. Y si algún día sacan una certificación más avanzada (¿CCD 2, tal vez?), seré de los primeros en apuntarme.
-![](assets/img/posts/Pasted%20image%2020260724201317.png)
+
+![](assets/img/posts/Pasted%20image%2020260724201345.png)
+
+---
 
 ## EXTRA. La plataforma CyberDefenders
 
-Para terminar voy a hablar ahora sobre el blog y los laboratorios de la plataforma en general, la cual  me ha servido para tener una muy buena base sobre Blue Team y con la que estoy a las puertas de entrar a trabajar como S0C N1:
+Para terminar voy a hablar ahora sobre el blog y los laboratorios de la plataforma en general, la cual me ha servido para tener una muy buena base sobre Blue Team y con la que estoy a las puertas de entrar a trabajar como S0C N1:
 
-- Los laboratorios premium son muy buenos, y van añadiendo uno nuevo cada 3-4 semanas basado en ataques reales ocurridos recientemente, lo cual está genial para no quedarte con contenido desactualizado. Cuestan 20$ al mes, con opción a pagar 200$ al año si lo tienes claro.
-
-Aparte de los premium también están los laboratorios gratuitos, que están muy bien para entrar en contacto con el tipo de herramientas que se usan en el día a día. Pero si te lo puedes permitir, yo recomiendo pagar los premium: hay muchos más y profundizan bastante más en cada tema.
-
-En cuanto a contenido, los labs cubren forense digital, análisis de malware, threat intelligence y threat hunting, con distintos niveles de dificultad. Y luego hay una distinción interesante entre dos tipos: los **retirados**, que vienen con su write-up y con pistas para guiarte si te atascas, y los **activos**, que no tienen nada de eso y son los que te sirven para subir puestos en el leaderboard.
+- Los laboratorios premium son muy buenos, y van añadiendo uno nuevo cada 3-4 semanas basado en ataques reales ocurridos recientemente, lo cual está genial para no quedarte con contenido desactualizado. Cuestan 20$ al mes, con opción a pagar 200$ al año si lo tienes claro. Aparte de los premium también están los laboratorios gratuitos, que están muy bien para entrar en contacto con el tipo de herramientas que se usan en el día a día. Pero si te lo puedes permitir, yo recomiendo pagar los premium: hay muchos más y profundizan bastante más en cada tema. En cuanto a contenido, los labs cubren forense digital, análisis de malware, threat intelligence y threat hunting, con distintos niveles de dificultad. Y luego hay una distinción interesante entre dos tipos: los **retirados**, que vienen con su write-up y con pistas para guiarte si te atascas, y los **activos**, que no tienen nada de eso y son los que te sirven para subir puestos en el leaderboard.
 ![](assets/img/posts/Pasted%20image%2020260724201223.png)
 
 - **El blog** funciona como un recurso aparte, con artículos y guías sobre detección, forense, threat hunting y herramientas de SOC (EDR, análisis de memoria, PowerShell ofuscado, etc.). Mucho contenido del propio certificado te lo encuentras ahí (aunque obviamente no se puede comparar). Es bastante útil.
+![](assets/img/posts/Pasted%20image%2020260724212525.png)
 
 ---
 
 
-![](assets/img/posts/Pasted%20image%2020260724201345.png)
+
