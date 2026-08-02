@@ -1,6 +1,6 @@
 ---
 title: CyberDefenders - Gh0stNet Intrusion Lab
-date: 2026-07-17 10:00:00 +0100
+date: 2026-07-30 10:00:00 +0100
 categories:
   - Writeups
 tags:
@@ -116,4 +116,62 @@ You are given three artifacts:
 ![](assets/img/posts/Pasted%20image%2020260723202603.png)
 
 2. That value is obfuscated, not plaintext - a straight Base64 decode yields garbage. Using the payload DLL you carved from the disk image, locate the routine that builds this exfil parameter, recover the encoding it applies, and use it to decode the captured value. What is the full decoded keylog record?
-	- La verdad que lo he hecho a fuerza bruta con Claude ya que el método correcto descrito en el Discord de Cyberdefenders consistía en extraes la DLL que has encontrado en las preguntas anteriores -> la descomprimes (la ejecutas y obtienes un volcado de memoria con x64dbg o pe-sieve) -> buscas las cadenas que contienen el parámetro deseado y, a continuación, realizas ingeniería inversa de su subrutina para determinar el esquema de codificación/decodificación. (este paso lo supe después de hacerlo a fuerza bruta aunque no se me hubiese ocurrido)
+	- La verdad que lo he hecho a fuerza bruta con Claude ya que el método correcto descrito en el Discord de Cyberdefenders consistía en extraer la DLL, descomprimirla y ejecutarla mientras se usa pe-sieve. Después se buscan las cadenas que contienen el parámetro deseado y, a continuación, se realiza ingeniería inversa de su subrutina para determinar el esquema de codificación/decodificación (este paso lo supe después de hacerlo a fuerza bruta aunque no se me hubiese ocurrido).
+
+3. The decoded keylog record shows an EMPTY username field, yet the attacker still obtained a full domain username for the targeted RDP host. Recover that full domain username from a disk artifact.
+	- Hay que buscar desde donde Windows guarda el último nombre de usuario utilizado por RDP. En este caso se guarda en NTUSER.dat\Software\Microsoft\Terminal Server Client\Servers\
+![](assets/img/posts/Pasted%20image%2020260726125646.png)
+
+## Act 2 - Initial Access
+
+1. Using the stolen credential, the attacker authenticated into the corporate workstation WS-KBRIGGS over RDP. What is the source IP address of that logon?
+	- Debemos filtrar por el puerto correspondiente a RDP (3389) y el EventID 3.
+![](assets/img/posts/Pasted%20image%2020260726130942.png)
+
+## Act 2 - Credential Access
+
+1. From the RDP session the attacker searched SYSVOL for stored Group Policy Preferences credentials and read one XML file. What is the filename of that file?
+	- Tenemos que filtrar por el DC01 ya que SYSVOL está alojado en el Domain Controller y por el Event ID 5145 que registra cada vez que un usuario o aplicación intenta acceder a un objeto de un recurso compartido de red.
+![](assets/img/posts/Pasted%20image%2020260726134045.png)
+
+2. What is the GUID of the Group Policy Object whose SYSVOL path contained that GPP file?
+	- Aparece en la misma query que la pregunta anterior
+![](assets/img/posts/Pasted%20image%2020260726135807.png)
+
+3. Identify the local administrator account the attacker recovered from that GPP credential and reused, and the cleartext password.
+	- Siendo sinceros, esta respuesta la he sacado de pura suerte mientras miraba que usuarios estaban presentes en el laboratorio. Me ha dado por ver el CommandLine del Event ID 1 de Sysmon del usuario vf-helpdesk en el PC WS-KBRIGGS y he visto que ha hecho movimiento lateral a FS con el usuario y las claves en texto plano.
+![](assets/img/posts/Pasted%20image%2020260727193820.png)
+
+## Act 2 - Persistence
+
+1. The attacker installed fileless persistence via a permanent WMI event subscription. What is the name of the event CONSUMER that was created?
+	- Filtramos por los eventos 19,20 y 21 asociados con WMIC para ver el nombre del evento COSUMER creado
+![](assets/img/posts/Pasted%20image%2020260727195201.png)
+
+2. What is the full URL that the WMI consumer downloads and executes when it fires?
+	- Con la misma query podemos ver la url el WMIC CONSUMER descarga y ejecuta.
+![](assets/img/posts/Pasted%20image%2020260727195343.png)
+
+## Act 2 - Lateral Movement
+
+3. The attacker moved to the file server FS-01 without PsExec or scheduled tasks, by instantiating a DCOM object remotely. What is the ProgID of the DCOM object used, and what numeric logon type did the resulting authentication to FS-01 produce?
+	- Este tipo de movimiento lateral es de los más difíciles de detectar porque se camufla muy bien con el entorno Windows. Filtrando por típicos comandos que aparecen, se puede sacar la respuesta. Al ser una autenticación de red, se sabe que es de tipo 3.
+![](assets/img/posts/Pasted%20image%2020260727200630.png)
+
+## Act 2 - Collection and Exfiltration
+
+1. The attacker hid the collected data in an NTFS alternate data stream before exfiltration. What is the full file:stream path of the ADS that was written?
+	- El EventID 15 registra cuando un ADS es creado. Tanto el usuario como el tiempo nos cuadra.
+![](assets/img/posts/Pasted%20image%2020260727201602.png)
+
+2. The staged data was exfiltrated via DNS tunneling. What is the attacker-controlled domain the encoded data was tunneled to?
+	- Event ID 22 registra las consultas DNS por lo que filtramos por el host y vemos todas las consultas.
+![](assets/img/posts/Pasted%20image%2020260727203855.png)
+
+3. How many DNS queries did the malware issue to the attacker domain to carry out this exfiltration?
+	- Filtramos por el nombre del dominio controlado por el atacante vemos el numero de eventos
+![](assets/img/posts/Pasted%20image%2020260727204142.png)
+
+4. Base64-decode the data label of the FIRST DNS-tunnel query (sequence 0). What file format does the recovered file signature identify the exfiltrated archive as?
+	- Decodifcandolo en CyberChef, vemos que sale PK, la firma mágica de .zip.
+![](assets/img/posts/Pasted%20image%2020260727204733.png)

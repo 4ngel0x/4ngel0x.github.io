@@ -9,7 +9,6 @@ description: Experiencia con la certificación y plataforma CCD
 image:
   path: assets/img/posts/diseño2.png
 ---
-
 ## Resumen rápido de la CCDL2
 
 | Aspecto                 | Valoración |

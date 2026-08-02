@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8ec390df1baf0d64",
+            "id": "6efeb6ec310a6eb9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,23 +20,8 @@
               "icon": "lucide-file",
               "title": "2026-07-20-gh0stnet-writeup"
             }
-          },
-          {
-            "id": "6efeb6ec310a6eb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2026-07-23-reviewccd.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-07-23-reviewccd"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -200,22 +185,23 @@
   },
   "active": "6efeb6ec310a6eb9",
   "lastOpenFiles": [
-    "_posts/2026-07-20-gh0stnet-writeup.md",
+    "assets/img/posts/Pasted image 20260727204733.png",
+    "assets/img/posts/Pasted image 20260727204614.png",
+    "assets/img/posts/Pasted image 20260727204142.png",
+    "assets/img/posts/Pasted image 20260727203855.png",
+    "assets/img/posts/Pasted image 20260727201602.png",
+    "assets/img/posts/Pasted image 20260727200630.png",
+    "assets/img/posts/Pasted image 20260727200627.png",
+    "assets/img/posts/Pasted image 20260727195343.png",
+    "assets/img/posts/Pasted image 20260727195201.png",
+    "assets/img/posts/Pasted image 20260727193820.png",
+    "assets/img/posts/Pasted image 20260726135807.png",
     "_posts/2026-07-23-reviewccd.md",
-    "assets/img/posts/Pasted image 20260724212525.png",
-    "assets/img/posts/ccdl2.3.png",
-    "assets/img/posts/sdds.png",
+    "_posts/2026-07-20-gh0stnet-writeup.md",
     "_site/posts/reviewccd/index.html",
     "_site/posts/reviewccd",
     "_site/posts/gh0stnet-writeup/index.html",
     "_site/posts/gh0stnet-writeup",
-    "_site/assets/img/posts/rhadamanthys.png",
-    "_site/assets/img/posts/ghostnet-intrusion.png",
-    "_site/assets/img/posts/byod-breach.png",
-    "_site/assets/img/posts/Pasted image 20260724201345.png",
-    "_site/assets/img/posts/Pasted image 20260724201317.png",
-    "_site/assets/img/posts/Pasted image 20260724201223.png",
-    "_site/assets/img/posts/Pasted image 20260723202603.png",
     "_site/categories/review/index.html",
     "_site/categories/review",
     "_site/tags/review/index.html",

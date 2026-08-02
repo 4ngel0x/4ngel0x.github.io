@@ -1,6 +1,6 @@
 ---
 title: CyberDefenders - Tax Day BYOVD Lab
-date: 2026-07-01 11:00:00 +0100
+date: 2026-07-18 11:00:00 +0100
 categories:
   - Writeups
 tags:
