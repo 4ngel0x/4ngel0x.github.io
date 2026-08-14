@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-07-20-gh0stnet-writeup.md",
+                "file": "_posts/2026-07-01-byovd-writeup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-07-20-gh0stnet-writeup"
+              "title": "2026-07-01-byovd-writeup"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -183,8 +185,13 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "6efeb6ec310a6eb9",
+  "active": "a71d5ca536714363",
   "lastOpenFiles": [
+    "_posts/2026-08-17-penumbra-writeup.md",
+    "_posts/2026-08-17-.md",
+    "_posts/efwefw.md",
+    "_posts/2026-08-02-proximo.md",
+    "_posts/2026-07-20-gh0stnet-writeup.md",
     "_site/posts/2026-08-02-proximo/index.html",
     "_site/posts/2026-08-02-proximo",
     "_site/assets/img/posts/diseño2.png",
@@ -197,11 +204,9 @@
     "_site/assets/img/posts/Pasted image 20260727200627.png",
     "_site/assets/img/posts/Pasted image 20260727195343.png",
     "_site/assets/img/posts/Pasted image 20260727195201.png",
-    "_posts/2026-08-02-proximo.md",
     "_posts/w.md",
     "_posts/de",
     "_posts/2026-07-23-reviewccd.md",
-    "_posts/2026-07-20-gh0stnet-writeup.md",
     "_site/posts/reviewccd/index.html",
     "_site/posts/reviewccd",
     "_site/posts/gh0stnet-writeup/index.html",
@@ -209,7 +214,6 @@
     "_site/categories/review/index.html",
     "_site/categories/review",
     "_site/tags/review/index.html",
-    "_site/tags/review",
     "_posts/2026-07-01-byovd-writeup.md",
     "_posts/2026-07-04-rhadamanthys-writeup.md",
     "_posts/2026-07-10-maromafix Falldown - RansomHub writeup.md",
