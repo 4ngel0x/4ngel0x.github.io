@@ -24,7 +24,7 @@ You are given three artifacts:
 -  homepc.pcap : Network capture from the home PC during the infection.
 -  Splunk logs : Windows Security + Sysmon telemetry from the corporate domain (**DC01**, **FS-01**, **WS-KBRIGGS**).
 ## HERRAMIENTAS
-- PECmd, 
+- PECmd, Wireshark, Splunk, IDA, Registry Explorer
 
 ---
 ## Act 1 - Initial Access
