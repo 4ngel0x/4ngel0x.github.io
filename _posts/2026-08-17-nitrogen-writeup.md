@@ -27,7 +27,7 @@ Your task is to perform a full incident investigation using Splunk telemetry, pr
 - Password: `CyDefStudent`
 
 ## HERRAMIENTAS
-- BrowsingHistoryView
+- BrowsingHistoryView, Splunk, EZ Tools
 
 ---
 ## Initial Access
