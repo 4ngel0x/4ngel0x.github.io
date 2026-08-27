@@ -1,6 +1,6 @@
 ---
 title: CyberDefenders - Nitrogen - Blackcat Ransomware Lab
-date: 2026-08-17 10:00:00 +0100
+date: 2026-08-26 10:00:00 +0100
 categories:
   - Writeups
 tags:
