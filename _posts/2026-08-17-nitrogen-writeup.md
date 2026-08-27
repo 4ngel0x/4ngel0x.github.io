@@ -12,7 +12,7 @@ description: "Writeup · Nitrogen - Blackcat Ransomware\r
 
   \ Lab"
 image:
-  path: assets/img/posts/silverclaw2.png
+  path: /assets/img/posts/sliverclaw2.png
 ---
 # ESCENARIO
 On September 10, 2025, trustwave.lab’s SOC team identified suspicious activity originating from a user workstation. The investigation revealed that the compromise began when the user searched online for legitimate software and clicked on an advertised website appearing in the first search results. Unbeknownst to the user, this site hosted a malicious download, which they executed with a single click, initiating a chain of malicious activity across the environment.
