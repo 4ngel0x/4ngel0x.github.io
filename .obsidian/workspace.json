@@ -11,14 +11,12 @@
             "id": "6efeb6ec310a6eb9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "_posts/2026-08-17-nitrogen-writeup.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/img/posts/sliverclaw2.png"
               },
-              "icon": "lucide-file",
-              "title": "2026-08-17-nitrogen-writeup"
+              "icon": "lucide-image",
+              "title": "sliverclaw2"
             }
           }
         ]
@@ -187,9 +185,9 @@
   },
   "active": "6efeb6ec310a6eb9",
   "lastOpenFiles": [
+    "_posts/2026-08-17-nitrogen-writeup.md",
     "assets/img/posts/sliverclaw2.png",
     "assets/img/posts/sliverclaw.webp",
-    "_posts/2026-08-17-nitrogen-writeup.md",
     "_site/posts/nitrogen-writeup/index.html",
     "_site/posts/nitrogen-writeup",
     "_site/posts/proximo/index.html",
@@ -202,7 +200,6 @@
     "_site/assets/img/posts/Pasted image 20260827115752.png",
     "_site/assets/img/posts/Pasted image 20260827115019.png",
     "_site/assets/img/posts/Pasted image 20260827113414.png",
-    "_site/assets/img/posts/Pasted image 20260827112337.png",
     "_site/tags/splunk/index.html",
     "_site/tags/splunk",
     "_posts/2026-08-02-proximo.md",
