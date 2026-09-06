@@ -9,7 +9,7 @@ tags:
   - EZ_Tools
 description: "Writeup · Crossed Signals Lab"
 image:
-  path: 
+  path: assets/img/posts/crossed-signals.png
 ---
 # ESCENARIO
 Maromalix Legal is a litigation firm representing a client in a lawsuit against Meridian Holdings. The firm's Office Manager, Sarah Mitchell (smitchell), reported unusual contact from someone claiming to be a security auditor. Weeks later, opposing counsel appeared to know details of the firm's privileged case strategy — details that were never disclosed. The firm suspects their systems were compromised and confidential legal documents were stolen. Analyze the provided forensic artifacts to reconstruct the full attack chain — from initial contact to data theft.
