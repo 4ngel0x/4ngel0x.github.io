@@ -11,14 +11,10 @@
             "id": "6efeb6ec310a6eb9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_posts/2026-09-01-crossed_signals-writeup.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2026-09-01-crossed_signals-writeup"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -185,23 +181,26 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "6efeb6ec310a6eb9",
+  "active": "a71d5ca536714363",
   "lastOpenFiles": [
-    "assets/img/posts/crossed-signals.png",
+    "assets/img/posts/phantom-installer.png",
+    "_posts/2026-09-24-phantom-installer-writeup.md",
+    "_posts/d.md",
+    "assets/img/posts/Pasted image 20260924122411.png",
+    "assets/img/posts/Pasted image 20260924122242.png",
+    "assets/img/posts/Pasted image 20260924121713.png",
+    "assets/img/posts/Pasted image 20260924120250.png",
+    "assets/img/posts/Pasted image 20260923191721.png",
+    "assets/img/posts/Pasted image 20260923191254.png",
+    "assets/img/posts/Pasted image 20260923190223.png",
+    "assets/img/posts/Pasted image 20260923185233.png",
+    "assets/img/posts/Pasted image 20260923175817.png",
+    "assets/img/posts/Pasted image 20260923173738.png",
+    "_posts/2026-09-01-crossed_signals-writeup.md",
+    "_posts/Sin título.md",
     "_site/posts/crossed_signals-writeup/index.html",
     "_site/posts/crossed_signals-writeup",
-    "_site/assets/img/posts/Pasted image 20260906180642.png",
-    "_site/assets/img/posts/Pasted image 20260906180459.png",
-    "_site/assets/img/posts/Pasted image 20260906180131.png",
-    "_site/assets/img/posts/Pasted image 20260906132905.png",
-    "_site/assets/img/posts/Pasted image 20260906130140.png",
-    "_site/assets/img/posts/Pasted image 20260906130137.png",
-    "_site/assets/img/posts/Pasted image 20260903200630.png",
-    "_site/assets/img/posts/Pasted image 20260903200620.png",
-    "_site/assets/img/posts/Pasted image 20260903200618.png",
-    "_site/assets/img/posts/Pasted image 20260903192554.png",
     "_posts/2026-08-17-nitrogen-writeup.md",
-    "_posts/2026-09-01-crossed_signals-writeup.md",
     "_site/posts/nitrogen-writeup/index.html",
     "_site/posts/nitrogen-writeup",
     "_site/posts/proximo/index.html",
