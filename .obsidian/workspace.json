@@ -11,10 +11,14 @@
             "id": "6efeb6ec310a6eb9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "_posts/Sin título.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Sin título"
             }
           }
         ]
@@ -181,23 +185,23 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "a71d5ca536714363",
+  "active": "6efeb6ec310a6eb9",
   "lastOpenFiles": [
-    "assets/img/posts/phantom-installer.png",
+    "assets/img/posts/Pasted image 20261001131817.png",
+    "assets/img/posts/Pasted image 20261001131128.png",
+    "assets/img/posts/Pasted image 20261001123033.png",
+    "assets/img/posts/Pasted image 20261001121912.png",
+    "assets/img/posts/Pasted image 20261001121800.png",
+    "assets/img/posts/Pasted image 20260930204903.png",
+    "assets/img/posts/Pasted image 20260930204603.png",
+    "assets/img/posts/Pasted image 20260930204100.png",
+    "assets/img/posts/Pasted image 20260930203645.png",
+    "assets/img/posts/Pasted image 20260930203321.png",
+    "assets/img/posts/Pasted image 20260930190911.png",
     "_posts/2026-09-24-phantom-installer-writeup.md",
-    "_posts/d.md",
-    "assets/img/posts/Pasted image 20260924122411.png",
-    "assets/img/posts/Pasted image 20260924122242.png",
-    "assets/img/posts/Pasted image 20260924121713.png",
-    "assets/img/posts/Pasted image 20260924120250.png",
-    "assets/img/posts/Pasted image 20260923191721.png",
-    "assets/img/posts/Pasted image 20260923191254.png",
-    "assets/img/posts/Pasted image 20260923190223.png",
-    "assets/img/posts/Pasted image 20260923185233.png",
-    "assets/img/posts/Pasted image 20260923175817.png",
-    "assets/img/posts/Pasted image 20260923173738.png",
     "_posts/2026-09-01-crossed_signals-writeup.md",
     "_posts/Sin título.md",
+    "_posts/d.md",
     "_site/posts/crossed_signals-writeup/index.html",
     "_site/posts/crossed_signals-writeup",
     "_posts/2026-08-17-nitrogen-writeup.md",
