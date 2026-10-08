@@ -24,7 +24,9 @@ Johnny Tronus, a data scientist on the marketing team, used a dedicated virtual 
 ![](assets/img/posts/Pasted%20image%2020260924200859.png)
 
 	- En la carpeta extensions dentro de .vscode también se puede ver.
+
 ![](assets/img/posts/Pasted%20image%2020260924201214.png)
+
 
 2. Determine the installation timestamp of the malicious extension installed by Johnny after extracting the archive.
 	- Nos vamos dentro de la extensión maliciosa y vemos que nos aparece la hora ahí pero me extrañó porque también aparecían las 2:42 por lo que me fui al archivo extensions.json para verificar la hora exacta de instalación.
