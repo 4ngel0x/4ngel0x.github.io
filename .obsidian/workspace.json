@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-08-17-nitrogen-writeup.md",
+                "file": "_posts/2026-10-07-codefreeze2-writeup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-08-17-nitrogen-writeup"
+              "title": "2026-10-07-codefreeze2-writeup"
             }
           }
         ]
@@ -187,6 +187,8 @@
   },
   "active": "6efeb6ec310a6eb9",
   "lastOpenFiles": [
+    "_posts/2026-08-17-nitrogen-writeup.md",
+    "_posts/2026-10-07-codefreeze2-writeup.md",
     "_site/posts/codefreeze2-writeup/index.html",
     "_site/posts/codefreeze2-writeup",
     "_site/posts/phantom-installer-writeup/index.html",
@@ -201,8 +203,6 @@
     "_site/assets/img/posts/Pasted image 20261001121800.png",
     "_site/assets/img/posts/Pasted image 20260930204903.png",
     "_site/assets/img/posts/Pasted image 20260930204603.png",
-    "_posts/2026-10-07-codefreeze2-writeup.md",
-    "_posts/2026-08-17-nitrogen-writeup.md",
     "_posts/2026-09-24-phantom-installer-writeup.md",
     "_posts/2026-09-01-crossed_signals-writeup.md",
     "_posts/Sin título.md",
@@ -213,7 +213,6 @@
     "_site/posts/nitrogen-writeup",
     "_site/posts/proximo/index.html",
     "_site/posts/proximo",
-    "_site/tags/splunk/index.html",
     "_posts/2026-08-02-proximo.md",
     "_posts/2026-07-01-byovd-writeup.md",
     "_posts/2026-07-23-reviewccd.md",
