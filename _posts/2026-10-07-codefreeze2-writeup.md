@@ -23,7 +23,7 @@ Johnny Tronus, a data scientist on the marketing team, used a dedicated virtual 
 
 ![](assets/img/posts/Pasted%20image%2020260924200859.png)
 
-	- En la carpeta extensions dentro de .vscode también se puede ver.
+- En la carpeta extensions dentro de .vscode también se puede ver.
 
 ![](assets/img/posts/Pasted%20image%2020260924201214.png)
 
@@ -33,7 +33,7 @@ Johnny Tronus, a data scientist on the marketing team, used a dedicated virtual 
 
 ![](assets/img/posts/Pasted%20image%2020260929194957.png)
 
-	- En la carpeta extensions dentro de .vscode también se puede ver.
+- En la carpeta extensions dentro de .vscode también se puede ver.
 
 ![](assets/img/posts/Pasted%20image%2020260929200047.png)
 3. According to the file metadata, what is the timestamp indicating when the malicious extension was packaged?

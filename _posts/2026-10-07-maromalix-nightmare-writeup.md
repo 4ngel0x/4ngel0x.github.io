@@ -20,4 +20,8 @@ You have been brought in to reconstruct what happened. The logs remember. Start 
 ![](assets/img/posts/Pasted%20image%2020261009123625.png)
 
 3. Which employee fell for the lure and executed the downloaded file, and at what time (UTC) did they run it?
-	- 
+	- Parseamos el ejecutable malicioso y nos fijamos en la columna Last Run
+![](assets/img/posts/Pasted%20image%2020261009124623.png)
+
+## Credential Access
+1. 
