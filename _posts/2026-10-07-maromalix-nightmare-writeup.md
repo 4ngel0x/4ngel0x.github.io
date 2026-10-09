@@ -16,3 +16,8 @@ You have been brought in to reconstruct what happened. The logs remember. Start 
 ![](assets/img/posts/Pasted%20image%2020261009123243.png)
 
 2. This lure belongs to a much larger fraud operation that abused promoted Facebook ads and thousands of pixel-perfect fake FIFA ticketing sites to target millions of 2026 World Cup fans. Search open threat intelligence for reporting tied to this lure domain and identify the campaign it is associated with. What is the campaign name?
+	- En la primera búsqueda nos aparece el nombre de la campaña.
+![](assets/img/posts/Pasted%20image%2020261009123625.png)
+
+3. Which employee fell for the lure and executed the downloaded file, and at what time (UTC) did they run it?
+	- 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2026-10-07-codefreeze2-writeup.md",
+                "file": "_posts/2026-10-07-maromalix-nightmare-writeup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-10-07-codefreeze2-writeup"
+              "title": "2026-10-07-maromalix-nightmare-writeup"
             }
           }
         ]
@@ -187,11 +187,19 @@
   },
   "active": "6efeb6ec310a6eb9",
   "lastOpenFiles": [
+    "_site/posts/maromalix-nightmare-writeup/index.html",
+    "_site/posts/maromalix-nightmare-writeup",
+    "_site/assets/img/posts/Pasted image 20261009123625.png",
+    "_site/assets/img/posts/Pasted image 20261009123243.png",
+    "_site/assets/img/posts/Pasted image 20261009123035.png",
+    "_site/assets/img/posts/Pasted image 20261008203657.png",
+    "_site/assets/img/posts/Pasted image 20261008203252.png",
+    "assets/img/posts/Pasted image 20261009123625.png",
+    "_posts/2026-10-07-codefreeze2-writeup.md",
     "_posts/2026-10-07-maromalix-nightmare-writeup.md",
     "assets/img/posts/Pasted image 20261009123243.png",
     "assets/img/posts/Pasted image 20261009123035.png",
     "_posts/2026-09-24-phantom-installer-writeup.md",
-    "_posts/2026-10-07-codefreeze2-writeup.md",
     "assets/img/posts/Pasted image 20261008203657.png",
     "assets/img/posts/Pasted image 20261008203252.png",
     "_posts/2026-08-17-nitrogen-writeup.md",
@@ -199,12 +207,6 @@
     "_site/posts/codefreeze2-writeup",
     "_site/posts/phantom-installer-writeup/index.html",
     "_site/posts/phantom-installer-writeup",
-    "_site/assets/img/posts/phantom-installer.png",
-    "_site/assets/img/posts/crossed-signals.png",
-    "_site/assets/img/posts/codefreeze-2.png",
-    "_site/assets/img/posts/Pasted image 20261001131817.png",
-    "_site/assets/img/posts/Pasted image 20261001131128.png",
-    "_site/assets/img/posts/Pasted image 20261001123033.png",
     "_posts/2026-09-01-crossed_signals-writeup.md",
     "_posts/d.md",
     "_site/posts/crossed_signals-writeup/index.html",
@@ -212,7 +214,6 @@
     "_site/posts/nitrogen-writeup/index.html",
     "_site/posts/nitrogen-writeup",
     "_site/posts/proximo/index.html",
-    "_site/posts/proximo",
     "_posts/2026-08-02-proximo.md",
     "_posts/2026-07-01-byovd-writeup.md",
     "_posts/2026-07-23-reviewccd.md",
