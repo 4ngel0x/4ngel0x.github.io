@@ -37,9 +37,8 @@ Johnny Tronus, a data scientist on the marketing team, used a dedicated virtual 
 
 ![](assets/img/posts/Pasted%20image%2020260929200047.png)
 3. According to the file metadata, what is the timestamp indicating when the malicious extension was packaged?
-	- f
-
-
+	- Nos vamos a por el archivo MFT para ver cuándo se creó el archivo en el sistema.
+![](assets/img/posts/Pasted%20image%2020261008203252.png)
 
 4. What is the display name of this extension?
 	- Dentro de la extensión, nos vamos a package.json y nos aparece en las primeras líneas
@@ -47,6 +46,7 @@ Johnny Tronus, a data scientist on the marketing team, used a dedicated virtual 
 
 5. Which activation event causes this extension to execute automatically after Visual Studio Code finishes starting?
 	- Dentro de package.json se ve claramente.
+
 ![](assets/img/posts/Pasted%20image%2020260930124138.png)
 
 ---
@@ -79,7 +79,8 @@ Johnny Tronus, a data scientist on the marketing team, used a dedicated virtual 
 ![](assets/img/posts/Pasted%20image%2020260930190911.png)
 
 3. There were some non-browser-related files that were packaged and exfiltrated by the threat actor. What is the name of the largest file among those files?
-	- e
+	- Como sabemos que el atacante hizo el staging de los datos recopilados en `/tmp/pyright-2915-7iD0X6PgsW7I` y, según el `.bash_history`, copió allí los archivos `*.csv`, `*.xlsx` y `wowza_dataset.ipynb`, nos dirigimos al MFT y filtramos por esas extensiones para identificar cuál era el archivo de mayor tamaño.
+![](assets/img/posts/Pasted%20image%2020261008203657.png)
 
 ---
 ## PERSISTENCE
