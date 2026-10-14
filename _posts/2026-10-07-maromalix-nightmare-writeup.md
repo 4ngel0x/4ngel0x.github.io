@@ -24,4 +24,26 @@ You have been brought in to reconstruct what happened. The logs remember. Start 
 ![](assets/img/posts/Pasted%20image%2020261009124623.png)
 
 ## Credential Access
-1. 
+1. Once on the host, the loader started hunting for stored secrets, first sweeping the user directories for files with credential-related names then checking which web browsers were currently running. What is the exact command the attacker used to enumerate the running browsers?
+	- Tenemos que ver el EventCode:1 después de la hora de ejecución del malware.
+
+![](assets/img/posts/Pasted%20image%2020261009125644.png)
+
+2. Having identified the running browser, the attacker dropped a purpose-built tool to steal its saved credentials. What is the name of that executable, and what is the GitHub username of the researcher behind this tool?
+	- Más abajo nos aparece el nombre de la herramienta la cual buscamos por internet para que nos aparezca el creador de la herramienta.
+
+![](assets/img/posts/Pasted%20image%2020261009130115.png)
+
+![](assets/img/posts/Pasted%20image%2020261009130126.png)
+
+3. The dumper accessed the running browser process to steal its saved credentials. What is the process ID of that browser instance, and what was the granted access (granted access in hex)?
+	- Filtramos por EventCode:10 y por EdgeSaved para que nos busque procesos accediendo a otros.
+![](assets/img/posts/Pasted%20image%2020261009131146.png)
+
+4. We can't confirm exactly which credentials the attacker walked away with, but right after the theft he began setting up a tunnel so he could RDP into the private network. What tool did he use to build this tunnel, and what address did it first connect out to?
+	- Seguimos con EventCode:1 y localizamos la herramienta chisel en los logs.
+
+![](assets/img/posts/Pasted%20image%2020261009133354.png)
+
+5. The attacker then RDP'd back into the same workstation, and the first thing he did was dump the browser process to look for more credentials. On which workstation did this happen, and what is the final full path of that dump file?
+	- 
