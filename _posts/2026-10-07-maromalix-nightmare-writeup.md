@@ -23,6 +23,7 @@ You have been brought in to reconstruct what happened. The logs remember. Start 
 	- Parseamos el ejecutable malicioso y nos fijamos en la columna Last Run
 ![](assets/img/posts/Pasted%20image%2020261009124623.png)
 
+---
 ## Credential Access
 1. Once on the host, the loader started hunting for stored secrets, first sweeping the user directories for files with credential-related names then checking which web browsers were currently running. What is the exact command the attacker used to enumerate the running browsers?
 	- Tenemos que ver el EventCode:1 después de la hora de ejecución del malware.
@@ -46,4 +47,18 @@ You have been brought in to reconstruct what happened. The logs remember. Start 
 ![](assets/img/posts/Pasted%20image%2020261009133354.png)
 
 5. The attacker then RDP'd back into the same workstation, and the first thing he did was dump the browser process to look for more credentials. On which workstation did this happen, and what is the final full path of that dump file?
-	- 
+	- En WST-01
+![](assets/img/posts/Pasted%20image%2020261018192805.png)
+
+6. The employee didn't save his workstation credentials in the browser password manager, but we suspect he kept them in one of his Notion notes. Recover and provide the credentials the attacker used to access the employee's Notion.
+	- Usamos strings: strings.exe -accepteula -n 6 Bookmarks > s.txt
+	- El comando saca todo el texto legible (ASCII y UTF-16, de 6 o más caracteres) del archivo `Bookmarks` y lo guarda en `s.txt`.
+	- Filtramos por Notion y nos aparecen las claves
+![](assets/img/posts/Pasted%20image%2020261018202053.png)
+
+---
+  
+## Privilege Escalation
+1. The first compromised user had only normal permissions, so the attacker dropped a binary to elevate his privileges. What is the full path of this executable, and which Microsoft Defender DLL did it load?
+	- Tras encontrar el path del ejecutable con event.code:11,   
+![](assets/img/posts/Pasted%20image%2020261019122727.png)

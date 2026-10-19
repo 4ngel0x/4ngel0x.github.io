@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/Sin título.md",
+                "file": "_posts/2026-10-07-maromalix-nightmare-writeup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sin título"
+              "title": "2026-10-07-maromalix-nightmare-writeup"
             }
           }
         ]
@@ -187,7 +187,11 @@
   },
   "active": "6efeb6ec310a6eb9",
   "lastOpenFiles": [
+    "assets/img/posts/Pasted image 20261019122727.png",
+    "_posts/Sin título.md",
     "_posts/2026-10-07-maromalix-nightmare-writeup.md",
+    "assets/img/posts/Pasted image 20261018202053.png",
+    "assets/img/posts/Pasted image 20261018192805.png",
     "assets/img/posts/Pasted image 20261009133354.png",
     "assets/img/posts/Pasted image 20261009131146.png",
     "assets/img/posts/Pasted image 20261009130126.png",
@@ -199,8 +203,6 @@
     "_site/posts/maromalix-nightmare-writeup",
     "_site/assets/img/posts/Pasted image 20261009123625.png",
     "_site/assets/img/posts/Pasted image 20261009123243.png",
-    "_site/assets/img/posts/Pasted image 20261009123035.png",
-    "_site/assets/img/posts/Pasted image 20261008203657.png",
     "_posts/2026-09-24-phantom-installer-writeup.md",
     "_posts/2026-08-17-nitrogen-writeup.md",
     "_site/posts/codefreeze2-writeup/index.html",
