@@ -1,3 +1,17 @@
+---
+title: CyberDefenders - Maromalix Nightmare Lab
+date: 2026-10-19 10:00:00 +0100
+categories:
+  - Writeups
+tags:
+  - windows
+  - malware
+  - ELK
+  - EZ_Tools
+description: "Writeup · Maromalix Nightmare Lab"
+image:
+  path: assets/img/posts/maromalix-nightmare.png
+---
 # ESCENARIO
 Maromalix is a mid-sized data analytics firm that spent eighteen months competing for a global sports-data partnership worth more than any contract in their history. The kind of deal that changes a company's trajectory. They prepared thoroughly, priced carefully, and submitted with confidence. They lost. To a competitor whose proposal matched their internal figures with a precision that cannot be explained by research or coincidence.
 
@@ -47,7 +61,7 @@ You have been brought in to reconstruct what happened. The logs remember. Start 
 ![](assets/img/posts/Pasted%20image%2020261009133354.png)
 
 5. The attacker then RDP'd back into the same workstation, and the first thing he did was dump the browser process to look for more credentials. On which workstation did this happen, and what is the final full path of that dump file?
-	- En WST-01
+
 ![](assets/img/posts/Pasted%20image%2020261018192805.png)
 
 6. The employee didn't save his workstation credentials in the browser password manager, but we suspect he kept them in one of his Notion notes. Recover and provide the credentials the attacker used to access the employee's Notion.
@@ -60,5 +74,7 @@ You have been brought in to reconstruct what happened. The logs remember. Start 
   
 ## Privilege Escalation
 1. The first compromised user had only normal permissions, so the attacker dropped a binary to elevate his privileges. What is the full path of this executable, and which Microsoft Defender DLL did it load?
-	- Tras encontrar el path del ejecutable con event.code:11,   
+	- Tras encontrar el path del ejecutable con event.code:11, filtramos por event.code:7 y RoguePlanet.exe
 ![](assets/img/posts/Pasted%20image%2020261019122727.png)
+
+![](assets/img/posts/Pasted%20image%2020261019124411.png)
