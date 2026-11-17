@@ -1,6 +1,6 @@
 ---
 title: Review Certificación CCDL2 (Certified CyberDefenders)
-date: 2026-07-23 11:00:00 +0100
+date: 2026-10-23 11:00:00 +0100
 categories:
   - Review
 tags:

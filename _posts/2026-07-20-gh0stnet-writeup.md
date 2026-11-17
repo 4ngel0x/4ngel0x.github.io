@@ -1,6 +1,6 @@
 ---
 title: CyberDefenders - Gh0stNet Intrusion Lab
-date: 2026-07-30 10:00:00 +0100
+date: 2026-09-30 10:00:00 +0100
 categories:
   - Writeups
 tags:

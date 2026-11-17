@@ -1,6 +1,6 @@
 ---
 title: CyberDefenders - CodeFreeze 2 Lab
-date: 2026-10-08 10:00:00 +0100
+date: 2026-11-17 10:00:00 +0100
 categories:
   - Writeups
 tags:

@@ -1,6 +1,6 @@
 ---
 title: CyberDefenders - Phantom Installer Lab
-date: 2026-09-24 10:00:00 +0100
+date: 2026-11-10 10:00:00 +0100
 categories:
   - Writeups
 tags:

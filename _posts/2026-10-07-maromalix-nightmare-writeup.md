@@ -78,3 +78,5 @@ You have been brought in to reconstruct what happened. The logs remember. Start 
 ![](assets/img/posts/Pasted%20image%2020261019122727.png)
 
 ![](assets/img/posts/Pasted%20image%2020261019124411.png)
+
+2. That elevation attempt was blocked because Defender was up to date. To confirm this for himself, the attacker ran a PowerShell cmdlet that returns the host's current protection state, including its antimalware engine version. What is the AMEngineVersion of this workstation that the attacker found out about?

@@ -1,6 +1,6 @@
 ---
 title: CyberDefenders - Crossed Signals Lab
-date: 2026-09-01 10:00:00 +0100
+date: 2026-11-01 10:00:00 +0100
 categories:
   - Writeups
 tags:
